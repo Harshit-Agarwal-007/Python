@@ -4,7 +4,8 @@ import random
 
 computer=random.randint(0,2)
 list1=['rock', "paper", 'scissors']
-print(f'you choose {list1[user]}')
+if 0>=user>=2:
+    print(f'you choose {list1[user]}')
 print(f' computer chose {list1[computer]}')
 list=[user, computer]
 if list[0]==list[1]:
